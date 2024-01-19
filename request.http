@@ -1,0 +1,30 @@
+http://localhost:3005/users
+
+###
+
+http://localhost:3005/users/5
+
+###
+
+POST http://localhost:3005/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Karan",
+    "bio": "KK"
+}
+
+###
+
+PUT http://localhost:3005/users/7 HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Prajwal",
+    "bio": "Chikuuuu"
+}
+
+###
+
+DELETE  http://localhost:3005/users/10 HTTP/1.1
+Content-Type: application/json
